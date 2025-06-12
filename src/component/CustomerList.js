@@ -29,3 +29,5 @@ function CustomerList({ customers, selectedId, onSelect }) {
     </div>
   );
 }
+
+export default CustomerList;
