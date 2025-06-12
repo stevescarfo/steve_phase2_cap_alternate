@@ -1,3 +1,5 @@
+import React from "react";
+
 function CustomerList({ customers, selectedId, onSelect }) {
   return (
     <div className="boxed">

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { getAll, post, put, deleteById } from "./memdb.js";
 import "./App.css";
-import CustomerList from "./CustomerList";
-import CustomerForm from "./CustomerForm";
+import CustomerList from "./component/CustomerList.js";
+import CustomerForm from "./component/CustomerForm.js";
 
 function log(message) {
   console.log(message);
